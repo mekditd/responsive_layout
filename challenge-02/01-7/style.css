@@ -22,5 +22,5 @@ body {
 .second-container {
     width: 80%;
     margin: 0 auto;
-    
+    max-width: 750px;
 }
