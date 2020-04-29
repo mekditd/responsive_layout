@@ -5,16 +5,10 @@ body {
     font-family: sans-serif;
 } 
 
-.warapper {
-    padding: 2em;
-    background: #23424A;
-
-
-}
 
 .container {
-    width: 80%;
-    max-width: 750px;
+    /* width: 80%; */
+    /* max-width: 750px; */
     margin: 0 auto;
     background: #23424A;
     color: white;
@@ -22,8 +16,12 @@ body {
 }
 
 .intro-content {
-    width: 50%;
+    width: 80%;
     max-width: 750px;
+}
+
+.intor-content p {
+    place-content: center;
 }
 
 .second-container {
