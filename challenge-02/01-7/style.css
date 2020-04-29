@@ -16,4 +16,11 @@ body {
 
 .intro-content {
     width: 50%;
+    max-width: 750px;
+}
+
+.second-container {
+    width: 80%;
+    margin: 0 auto;
+    
 }
