@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-bosy {
+body {
     margin: 0;
 }
 
@@ -16,4 +16,8 @@ bosy {
     width: 80%;
     max-width: 750px;
     margin: 0 auto;
+}
+
+button {
+    border-radius: 50px;
 }
