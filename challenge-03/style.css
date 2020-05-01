@@ -10,14 +10,24 @@ body {
     background: #23424A;
     color: white;
     padding: 2em; 
+
 }
 
 .inner {
-    width: 50%;
+    margin: 0 auto;
     max-width: 750px;
-    /* margin: auto; */
+    width: 80%;
 }
 
 button {
     border-radius: 50px;
+    background-color: #38cfd9;
+
+}
+
+button a {
+}
+
+.innest {
+    width: 50%;
 }
