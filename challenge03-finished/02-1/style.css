@@ -53,6 +53,5 @@ h1 {
 }
 
 .col {
-    background-color: limegreen;
-    margin: 10px;
+    width: 100%;
 }
