@@ -17,17 +17,21 @@ body {
     margin: 0 auto;
     max-width: 750px;
     width: 80%;
+    border: solid 1px white;
 }
 
 button {
     border-radius: 50px;
     background-color: #38cfd9;
-
 }
 
-button a {
+button:hover,
+:focus {
+    background-color: #fff;
+
 }
 
 .innest {
     width: 50%;
 }
+
