@@ -47,3 +47,12 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
+
+.row {
+    display: flex;
+}
+
+.col {
+    background-color: limegreen;
+    margin: 10px;
+}
