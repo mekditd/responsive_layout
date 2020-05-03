@@ -50,12 +50,17 @@ h1 {
 
 .row {
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
 }
 
 .col {
     width: 100%;
+
 }
 
 .col + .col {
     margin-left: 30px;
 }
+
