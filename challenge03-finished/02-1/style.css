@@ -12,17 +12,18 @@ h1 {
     font-size: 3rem;
 }
 
+.hero {
+    padding: 100px 0;
+    background-color: #23424A;
+    color: #FFF;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.hero {
-    padding: 100px 0;
-    background-color: #23424A;
-    color: #FFF;
-}
 
 .hero__text {
     width: 60%;
