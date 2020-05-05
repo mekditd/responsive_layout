@@ -68,6 +68,10 @@ h1 {
     margin-left: 30px;
 }
 
+.three-col {
+    text-align: center;
+}
+
 .three-col h2 {
     color: plum;
 }
