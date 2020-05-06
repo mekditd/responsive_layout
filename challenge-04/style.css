@@ -8,6 +8,10 @@ body {
     font-size: 1.3em;
 }
 
+img {
+    max-width: 100%;
+}
+
 .hero {
     padding: 50px 0;
     background-color: #23424A;
