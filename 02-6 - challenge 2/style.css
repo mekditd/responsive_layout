@@ -89,3 +89,13 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
+
+.two-row h2 {
+    color: #136C72;
+}
+
+.three-row {
+    background-color: #136C72;
+    text-align: center;
+    color: white;
+}
