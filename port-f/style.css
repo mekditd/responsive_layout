@@ -13,6 +13,14 @@ body {
 
 }
 
+.container {
+
+}
+
+.row {
+    /* display: flex; */
+}
+
 .fixed {
     display: flex;
     background-color: whitesmoke;
@@ -33,4 +41,10 @@ body {
 
 li {
     margin-left: 20px;
+}
+
+@media (min-width: 700px){
+    .row {
+        display: flex;
+    }
 }
