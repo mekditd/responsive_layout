@@ -23,14 +23,20 @@ body {
 }
 
 .fixed {
-    display: flex;
+    /* display: flex; */
     background-color: whitesmoke;
-    padding: 1.2em;
+    padding: 2em;
 
 }
 
 .logo {
     flex: 1;
+}
+
+img {
+    border-radius: 600px;
+    width: 65%;
+    max-width:120px;
 }
 
 .links {
@@ -40,6 +46,7 @@ body {
 
 .three-li {
     display: flex;
+    justify-content: space-between;
 }
 
 li {
@@ -53,10 +60,30 @@ li {
 
     .three-li {
         /* display: flex; */
+    justify-content: space-between;
+
     }
 
     .fixed {
         width: 30%;
         max-width: 400px;
+    }
+
+    img {
+        width: 85%;
+        max-width: 250px;
+        border-radius: 100px;
+    }
+    
+    .intro {
+        height: 500px;
+    }
+
+    .about {
+        height: 500px;
+    }
+
+    .contact {
+        height: 500px;
     }
 }
