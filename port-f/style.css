@@ -24,4 +24,13 @@ body {
 
 .links {
     flex: 2;
+    align-self: flex-end;
+}
+
+.three-li {
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
 }
