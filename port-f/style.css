@@ -7,3 +7,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
+.wrapper {
+    background-color: lightsteelblue;
+
+}
+
+.fixed {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.logo {
+    flex: 1;
+}
+
+.links {
+    flex: 2;
+}
