@@ -6,6 +6,7 @@ body {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    line-height:1.2em;
 }
 
 .wrapper {
@@ -24,6 +25,8 @@ body {
 .fixed {
     display: flex;
     background-color: whitesmoke;
+    padding: 1.2em;
+
 }
 
 .logo {
@@ -32,7 +35,7 @@ body {
 
 .links {
     flex: 2;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 .three-li {
@@ -46,5 +49,14 @@ li {
 @media (min-width: 700px){
     .row {
         display: flex;
+    }
+
+    .three-li {
+        /* display: flex; */
+    }
+
+    .fixed {
+        width: 30%;
+        max-width: 400px;
     }
 }
