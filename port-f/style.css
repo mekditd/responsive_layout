@@ -127,5 +127,10 @@ body {
 }
 
 .nav {
+    justify-content: flex-end;
     display: flex;
+}
+
+.nav-link {
+    padding-left: 10px;
 }
