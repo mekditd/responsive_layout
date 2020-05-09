@@ -29,6 +29,10 @@ body {
 
 }
 
+.three-li {
+    max-width: 100%;
+}
+
 .logo {
     flex: 1;
 }
@@ -53,7 +57,7 @@ li {
     margin-left: 20px;
 }
 
-@media (min-width: 700px){
+@media screen and (width: 700px){
     .row {
         display: flex;
     }
