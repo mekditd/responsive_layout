@@ -134,3 +134,22 @@ body {
 .nav-link {
     padding-left: 10px;
 }
+
+.intro, .about,
+.proj, .contact {
+    height: 400px;
+    margin-top: 1.2em;
+    background-color: lightpink;
+}
+
+
+@media screen and (min-width: 700px){
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fixed {
+        display: flex;
+    }
+}
