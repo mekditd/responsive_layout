@@ -126,14 +126,24 @@ body {
     background-color: burlywood;
 }
 
+.logo {
+    display: flex;
+}
+
+img {
+    width: 75%;
+    max-width: 300px;
+    border-radius: 50px;
+    align-self: center;
+}
+
 .nav {
     /* justify-content: flex-end; */
     display: flex;
-    /* flex-direction: column; */
 }
 
 .nav-link {
-    padding-left: 10px;
+    padding: 4rem;
 }
 
 .intro, .about,
