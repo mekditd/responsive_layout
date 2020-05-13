@@ -35,4 +35,10 @@ body {
 .container {
     width: 80%;
     max-width: 1128px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
 }
