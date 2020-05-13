@@ -25,10 +25,13 @@ body {
     padding: 5em;
 }
 
+h4 span {
+    margin: 0 .4em;
+}
+
 .section--title {
     font-family: 'Playfair Display', serif;
     color: #824936;
-
 }
 
 .hero p {
