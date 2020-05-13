@@ -16,6 +16,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
+    text-decoration: none;
 }
 
 img {
@@ -73,8 +74,9 @@ header {
     padding: 1em 0;
 }
 
-.row {
-    display: flex;
+
+.logo a {
+    color: white;
 }
 
 .nav {
