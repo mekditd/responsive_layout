@@ -8,3 +8,8 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.hero {
+    background-color: #F3EED9;
+    width: 100%;
+}
