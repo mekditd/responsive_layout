@@ -73,16 +73,19 @@ header {
     padding: .5em 0;
 }
 
+
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .nav__link {
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;;
+    text-transform: uppercase;
+    padding: 0 .5em;
 }
 
 .nav__link--button {
