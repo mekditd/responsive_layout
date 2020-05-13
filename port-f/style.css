@@ -116,10 +116,10 @@ body {
     padding: 1.5em;
 }
 
-.row {
+/* .row {
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 .fixed {
@@ -158,7 +158,7 @@ img {
 @media screen and (min-width: 700px){
     .row {
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
     }
 
     .links {
