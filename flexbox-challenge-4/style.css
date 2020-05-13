@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -56,10 +58,13 @@ body {
     justify-content: space-between;
 }
 
-.p--one + .p--one {
+.p--one+.p--one {
     margin-left: 1em;
 }
 
+img {
+    width: 100%;
+}
 
 .image--one {
     /* display: flex; */
@@ -69,7 +74,7 @@ body {
 
 .image__title {
     text-align: center;
-    font-family: 'Playfair Display', serif; 
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -77,3 +82,11 @@ body {
     margin-left: 1em;
 }
 
+.image--two {
+    background-color: #824936;
+    color: white;
+}
+
+.second-image {
+    border: 1px solid white;
+}
