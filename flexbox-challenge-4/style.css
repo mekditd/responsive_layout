@@ -7,6 +7,7 @@ body {
     padding: 0;
     /* font-family: 'Playfair Display', serif; */
     /* font-family: 'Roboto', sans-serif; */
+    line-height: 1.3em;
 }
 
 .hero {
@@ -36,11 +37,11 @@ body {
     width: 80%;
     max-width: 1128px;
     margin: 0 auto;
-}
-
-.main {
     padding: 1.5em;
 }
+
+/* .main {
+} */
 
 .main--title {
     color: #824936;
@@ -55,4 +56,8 @@ body {
 
 .main--text + .main--text {
     margin-left: 1em;
+}
+
+.image--one {
+    /* display: flex; */
 }
