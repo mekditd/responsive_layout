@@ -38,6 +38,10 @@ body {
     margin: 0 auto;
 }
 
+.main {
+    padding: 1.5em;
+}
+
 .main--title {
     color: #824936;
     text-align: center;
