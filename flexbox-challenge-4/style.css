@@ -60,4 +60,6 @@ body {
 
 .image--one {
     /* display: flex; */
+    background-color: #222C2A;
+    color: white;
 }
