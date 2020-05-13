@@ -65,6 +65,12 @@ body {
     color: white;
 }
 
+.image--one__title {
+    text-align: center;
+    font-family: 'Playfair Display', serif; 
+
+}
+
 .first--image {
     margin-left: 1em;
 }
