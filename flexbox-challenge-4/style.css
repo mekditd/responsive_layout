@@ -52,3 +52,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.main--text + .main--text {
+    margin-left: 1em;
+}
