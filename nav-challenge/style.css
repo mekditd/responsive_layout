@@ -16,7 +16,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
-    text-decoration: none;
 }
 
 img {
@@ -77,6 +76,7 @@ header {
 
 .logo a {
     color: white;
+    text-decoration: none;
 }
 
 .nav {
