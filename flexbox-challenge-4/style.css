@@ -46,8 +46,6 @@ h4 span {
     padding: 2em;
 }
 
-/* .main {
-} */
 
 .main--title {
     color: #824936;
@@ -61,7 +59,7 @@ h4 span {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .p--one {
@@ -83,19 +81,22 @@ img {
     color: white;
 }
 
+.section--text {
+    border: 1px solid white;
+    flex: 1;
+}
+
 .image__title {
     text-align: center;
     font-family: 'Playfair Display', serif;
 
 }
 
-.first--image {
+/* .first--image {
     margin-left: 1em;
-}
+} */
 
-.section--text {
-    border: 1px solid white;
-}
+
 
 .image--two {
     background-color: #824936;
@@ -104,10 +105,12 @@ img {
 
 .second-image {
     border: 1px solid white;
+    flex: 1;
 }
 
 .image--two__text {
-    margin-left: 1.5em;
+    /* margin-left: 1.5em; */
     width: 100%;
     border: 1px solid white;
+    flex: 1;
 }
