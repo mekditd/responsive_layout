@@ -139,3 +139,15 @@ section {
     width: 85%;
     margin: 0 auto;
 }
+
+.section-title {
+    font-size: 2.25rem;
+    color: #F3EED9;
+}
+
+.intro {
+    background-color: #F3EED9;
+    padding: 12.5em 0;
+    text-align: center;
+    color: #824936;
+}
