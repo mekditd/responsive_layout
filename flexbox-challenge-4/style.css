@@ -154,6 +154,10 @@ section {
     padding: 12.5em 0;
     text-align: center;
     color: #824936;
+    min-height: 660px;
+
+    display: flex;
+    align-items: center;
 }
 
 .intro__text {
@@ -193,5 +197,9 @@ section {
 
     .intro__title {
         font-size: 3.75rem;
+    }
+
+    .container {
+        max-width: 1128px;
     }
 }
