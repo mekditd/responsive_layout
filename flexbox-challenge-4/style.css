@@ -186,4 +186,12 @@ section {
     .col {
         width: 100%;
     }
+
+    .col + .col {
+        margin-left: 5em;
+    }
+
+    .intro__title {
+        font-size: 3.75rem;
+    }
 }
