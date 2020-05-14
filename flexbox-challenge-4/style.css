@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -7,7 +7,6 @@
 body {
     margin: 0;
     padding: 0;
-    /* font-family: 'Playfair Display', serif; */
     font-family: 'Roboto Regular';
     font-size: 21px;
     line-height: 1.3em;
@@ -16,8 +15,6 @@ body {
 .hero {
     background-color: #F3EED9;
     width: 100%;
-    /* max-width: 1128px; */
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,17 +63,12 @@ h4 span {
     flex: 1;
 }
 
-/* .p--one+.p--one {
-    margin-left: 1em;
-} */
 
 img {
-    /* width: 100%; */
     flex: 1;
 }
 
 .image--one {
-    /* display: flex; */
     background-color: #222C2A;
     color: white;
 }
@@ -92,9 +84,6 @@ img {
 
 }
 
-/* .first--image {
-    margin-left: 1em;
-} */
 
 
 
@@ -109,8 +98,12 @@ img {
 }
 
 .image--two__text {
-    /* margin-left: 1.5em; */
-    /* width: 100%; */
     border: 1px solid white;
     flex: 1;
+} */
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
 }
