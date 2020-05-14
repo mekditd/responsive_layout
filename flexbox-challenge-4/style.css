@@ -93,3 +93,7 @@ img {
 .second-image {
     border: 1px solid white;
 }
+
+.image--two__text p {
+    margin-left: 1em;
+}
