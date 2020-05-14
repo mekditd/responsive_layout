@@ -53,7 +53,10 @@ h4 span {
     color: #824936;
     text-align: center;
     font-family: 'Playfair Display', serif;
+}
 
+.main--text p {
+    border: 1px solid red;
 }
 
 .row {
@@ -61,12 +64,17 @@ h4 span {
     justify-content: space-between;
 }
 
-.p--one+.p--one {
-    margin-left: 1em;
+.p--one {
+    flex: 1;
 }
+
+/* .p--one+.p--one {
+    margin-left: 1em;
+} */
 
 img {
     width: 100%;
+    flex: 1;
 }
 
 .image--one {
@@ -85,6 +93,10 @@ img {
     margin-left: 1em;
 }
 
+.section--text {
+    border: 1px solid white;
+}
+
 .image--two {
     background-color: #824936;
     color: white;
@@ -94,6 +106,8 @@ img {
     border: 1px solid white;
 }
 
-.image--two__text p {
-    margin-left: 1em;
+.image--two__text {
+    margin-left: 1.5em;
+    width: 100%;
+    border: 1px solid white;
 }
