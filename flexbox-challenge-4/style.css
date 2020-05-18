@@ -37,6 +37,7 @@ section {
 .container {
     width: 85%;
     margin: 0 auto;
+    max-width: 1128px;
 }
 
 .section-title {
@@ -50,7 +51,7 @@ section {
 
 .intro {
     background-color: #F3EED9;
-    padding: 12.5em 0;
+    /* padding: 12.5em 0; */
     text-align: center;
     color: #824936;
     min-height: 560px;
