@@ -177,11 +177,4 @@ header {
         width: 100%;
     }
 
-    .row {
-        display: block;
-    }
-
-    .nav__item{
-        display: block;
-    }
 }
