@@ -69,6 +69,16 @@ header {
 .nav__list {
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+.nav__item {
+    margin-top: 0.75em;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
 }
 
 
