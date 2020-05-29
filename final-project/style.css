@@ -7,3 +7,17 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem
 }
+
+img {
+    width: 100%
+}
+
+header {
+    background: #2E323F;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between
+}
