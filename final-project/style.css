@@ -21,3 +21,17 @@ header {
     display: flex;
     justify-content: space-between
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
