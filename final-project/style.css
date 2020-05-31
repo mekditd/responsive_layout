@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box
 }
 
@@ -14,7 +16,8 @@ img {
 
 header {
     background: #2E323F;
-visibility: hidden;
+    border: solid 1px purple;
+    display: none;
 }
 
 /* .row {
@@ -27,18 +30,17 @@ visibility: hidden;
 
 /* nav ul {
     display: flex;
-}
+} */
 
 li {
-  text-decoration: none;
-  list-style-type: none;
-  margin-left: 1rem;
-  padding: 0 .5rem;
-  width: 5rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 1rem;
+    padding: 0 .5rem;
+    width: 5rem;
 }
 
-li a {
+/* li a {
     color: #fff;
     text-decoration: none;
-}
-
+} */
