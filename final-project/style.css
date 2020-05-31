@@ -14,20 +14,18 @@ img {
 
 header {
     background: #2E323F;
-
+visibility: hidden;
 }
 
-.row {
+/* .row {
     display: flex;
     justify-content: space-between
-}
+} */
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
+/* nav {
+}  */
 
-nav ul {
+/* nav ul {
     display: flex;
 }
 
@@ -43,3 +41,4 @@ li a {
     color: #fff;
     text-decoration: none;
 }
+
