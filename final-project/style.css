@@ -20,9 +20,21 @@ img {
     color: #A59678;
 }
 
+
+.section__text {
+    background-color: #3b4050;
+    color: #ffffff;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
 header {
     background: #2E323F;
     border: solid 1px purple;
+    display: none;
+}
+
+.three-col {
     display: none;
 }
 
