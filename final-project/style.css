@@ -16,6 +16,10 @@ img {
     width: 100%
 }
 
+.section__title {
+    color: #A59678;
+}
+
 header {
     background: #2E323F;
     border: solid 1px purple;
