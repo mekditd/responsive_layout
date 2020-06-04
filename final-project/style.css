@@ -75,6 +75,10 @@ li {
         
     }
 
+    .section__text + .section__text {
+        margin-left: 1rem;
+    }
+
 }
 
 
