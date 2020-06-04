@@ -74,14 +74,22 @@ li {
 
 @media only screen and (min-width: 768px){
 
-    .three__col__text {
+    .row {
         display: flex;
-        
     }
 
-    .section__text + .section__text {
-        margin-left: 1rem;
+    .three-col {
+        display: 
     }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .section__text + .section__text {
+        margin-left: 1rem;
+    } */
 
     li a {
         color: #fff;
@@ -113,7 +121,7 @@ li {
 
     .list__one {
         justify-content: flex-start;
-    
+    }
 
 }
 
