@@ -79,6 +79,11 @@ li {
         margin-left: 1rem;
     }
 
+    li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
 }
 
 
