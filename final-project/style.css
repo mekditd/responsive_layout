@@ -64,8 +64,12 @@ li {
 } */
 
 .footer__groups {
-    display: flex;
+    display: block;
     justify-content: space-between;
+}
+
+.last__title {
+    color: #A59678;
 }
 
 @media only screen and (min-width: 768px){
@@ -88,6 +92,27 @@ li {
         display: flex;
         justify-content: space-between;
     }
+
+    .last__title {
+        color: #A59678;
+    }
+
+    .last__text {
+        width: 40%;
+    }
+
+    .last__p p {
+        max-width: 90%;
+        align-self: center;
+    }
+
+    .last__links {
+        width: 20%;
+        justify-content: center;
+    }
+
+    .list__one {
+        justify-content: flex-start;
     
 
 }
