@@ -159,6 +159,7 @@ header ul li {
     .three-col {
         display: flex;
         text-align: center;
+        background-color: rgb(250, 241, 224);
     }
 
     .three__col__text+.three__col__text {
