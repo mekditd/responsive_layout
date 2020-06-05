@@ -30,7 +30,6 @@ img {
 
 header {
     background: #2E323F;
-    border: solid 1px purple;
     display: none;
 }
 
@@ -74,6 +73,34 @@ li {
 
 @media only screen and (min-width: 768px){
 
+    header {
+        background: #2E323F;
+        display: flex;
+        padding: 1rem .5rem 1rem 1rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        flex: 2;
+    }
+
+
+
+
+    .links {
+        align-self: flex-end;
+        flex: 1;
+    }
+
+    .nav__links {
+        display: flex;
+        justify-self: flex-end;
+    }
+    
     .row {
         display: flex;
     }
