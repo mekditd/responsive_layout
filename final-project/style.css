@@ -20,6 +20,45 @@ img {
     width: 100%
 }
 
+
+
+header {
+    background: #2E323F;
+    /* display: none; */
+}
+
+header ul li {
+    text-decoration: none;
+    list-style-type: none;
+    /* margin-left: 1rem;
+    padding: 0 1rem;
+    width: 5rem; */
+}
+
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__image {
+    /* justify-self: flex-start; */
+    align-self: center;
+}
+
+.links {
+    display: flex;       
+    /* justify-self: flex-end; */
+}
+
+.links ul {
+    display: flex;
+}
+
+.nav__item {
+    padding: 0 1em;
+}
+
 .section__title {
     color: #A59678;
 }
@@ -32,29 +71,17 @@ img {
     margin: 1rem 0;
 }
 
-header {
-    background: #2E323F;
+
+
+/* .three-col {
     display: none;
+} */
+
+footer {
+    background-color: #3B4050;
+    color: #fff;
 }
 
-li {
-    text-decoration: none;
-    list-style-type: none;
-    /* margin-left: 1rem;
-    padding: 0 1rem;
-    width: 5rem; */
-}
-
-.three-col {
-    display: none;
-}
-
-
-
-.footer__groups {
-    display: block;
-    justify-content: space-between;
-}
 
 .last__title {
     color: #A59678;
@@ -63,9 +90,10 @@ li {
 @media only screen and (min-width: 700px){
 
     .container {
-        /* width: 80%; */
         max-width: 1200px;
     }
+
+    
 
     header {
         background: #2E323F;
@@ -78,7 +106,11 @@ li {
         max-width: 1200px;
     }
 
+    li {
+        text-decoration: none;
+        list-style-type: none;
 
+    }
 
     .row {
         display: flex;
@@ -90,7 +122,7 @@ li {
     }
     
     .nav__image {
-        justify-self: flex-start;
+        /* justify-self: flex-start; */
         align-self: center;
     }
 
@@ -112,19 +144,22 @@ li {
         justify-content: space-between;
         background-color: #3B4050;
         padding: 8rem;
-
     }
 
 
+
+    .hero h1 {
+        color: #fff;
+        width: 35%;
+        
+    }
 
     .hero__text{
         color: #fff;
+        width: 60%;
+        margin-left: 2rem;
     }
     
-    h1 {
-        color: #fff;
-        
-    }
 
 
     .three-col {
