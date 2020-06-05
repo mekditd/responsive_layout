@@ -37,18 +37,18 @@ header {
     display: none;
 }
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+    /* margin-left: 1rem;
+    padding: 0 1rem;
+    width: 5rem; */
+}
+
 .three-col {
     display: none;
 }
 
-
-li {
-    text-decoration: none;
-    list-style-type: none;
-    margin-left: 1rem;
-    padding: 0 1rem;
-    width: 5rem;
-}
 
 
 .footer__groups {
@@ -62,47 +62,49 @@ li {
 
 @media only screen and (min-width: 700px){
 
-    header {
-        background: #2E323F;
-        display: flex;
-        padding: 1rem ;
-    }
-
     .container {
         /* width: 80%; */
         max-width: 1200px;
     }
 
+    header {
+        background: #2E323F;
+        display: flex;
+        /* padding: 1rem ; */
+    }
+
+    header .container {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+
+
     .row {
         display: flex;
     }
 
-    nav {
+    .nav__links {
         display: flex;
         justify-content: space-between;
     }
-
-    .nav__links {
-        display: flex;
-        justify-content: flex-end;
-    }
     
-    .logo {
+    .nav__image {
         justify-self: flex-start;
+        align-self: center;
     }
 
     .links {
         display: flex;       
-        justify-self: flex-end;
+        /* justify-self: flex-end; */
     }
 
-    ul {
+    .links ul {
         display: flex;
     }
 
     .nav__item {
-        padding: 0 1rem;
-        border: 1px solid red;
+        padding: 0 1em;
     }
 
     .hero {
@@ -110,7 +112,10 @@ li {
         justify-content: space-between;
         background-color: #3B4050;
         padding: 8rem;
+
     }
+
+
 
     .hero__text{
         color: #fff;
