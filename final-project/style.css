@@ -81,25 +81,23 @@ li {
         display: flex;
         justify-content: space-between;
     }
-    
-    .logo {
-        /* flex: 2; */
-        justify-self: end;
-    }
-
-
-
-
-    .links {
-        /* align-self: flex-end; */
-        /* flex: 1; */
-        justify-self: end;
-        
-    }
 
     .nav__links {
         display: flex;
+        justify-content: flex-end;
+    }
+    
+    .logo {
+        justify-self: flex-start;
+    }
+
+    .links {
+        display: flex;       
         justify-self: flex-end;
+    }
+
+    ul {
+        display: flex;
     }
 
     .nav__item {
