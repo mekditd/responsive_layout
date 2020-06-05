@@ -79,7 +79,7 @@ li {
     }
 
     .three-col {
-        display: 
+        display: flex;
     }
 
     aside {
