@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,6 +37,16 @@ header {
 
 .navigation {
     justify-content: space-between;
+}
+
+.logo {
+    flex-shrink: 0;
+    border: 1px solid #fff;
+}
+
+.nav__links {
+    flex-shrink: 1;
+    border: 1px solid #fff;
 }
 
 nav ul{
