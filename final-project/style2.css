@@ -97,14 +97,19 @@ ul li a {
 /* three-col section  */
 
 .three-col {
-    background-color: #6F737F;
+    background-color: #DFE0DB;
     margin: 0;
     padding: 3rem 0;
 }
 
-.tree__col__text {
+/* .three_col_smaller_screen {
     display: flex;
     flex-direction: row;
+} */
+
+.tree__col__text {
+    display: flex;
+    flex-direction: column;
 }
 
 .section__title {
