@@ -14,9 +14,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.section__title { 
+    margin: 0;
+}
+
 img {
     width: 100%;
 }
+
+/* header elements */
 
 header {
     background: #2E323F;
@@ -53,7 +59,7 @@ nav ul{
     display: flex;
 }
 
-li + li {
+.nav__item + .nav__item {
     margin-left: 1em;
 }
 
@@ -64,4 +70,26 @@ li, a {
 
 ul li a {
     color: #fff;
+}
+
+/* heros section */
+
+.hero {
+    background-color: #3B4050;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.hero__button {
+    color: #fff;
+    background-color: #A59678;
+    padding: .5rem;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.brown {
+    color: #A59678;
 }
