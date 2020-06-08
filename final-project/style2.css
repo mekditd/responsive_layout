@@ -1,8 +1,11 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -15,7 +18,7 @@ body {
     line-height: 1.5rem;
 }
 
-.section__title { 
+.section__title {
     margin: 0;
 }
 
@@ -32,7 +35,7 @@ header {
 
 .container {
     width: 85%;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 
@@ -56,18 +59,19 @@ header {
     /* border: 1px solid #fff; */
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-.nav__item + .nav__item {
+.nav__item+.nav__item {
     margin-left: 1em;
 }
 
-li, a {
+li,
+a {
     text-decoration: none;
     list-style-type: none;
-} 
+}
 
 ul li a {
     color: #fff;
@@ -86,8 +90,16 @@ ul li a {
     color: #fff;
     background-color: #A59678;
     padding: .5rem 1.5rem;
-    /* width: 25%; */
-    border-radius: 20px;
+}
+
+.hero__button:hover {
+    background-color: #5F7E5B
+}
+
+.hero__button:active {
+    background-color: #5F7E5B;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .brown {
@@ -113,7 +125,7 @@ ul li a {
     text-align: center;
 }
 
-.three__col__text + .three__col__text {
+.three__col__text+.three__col__text {
     margin-top: 2rem;
 }
 
@@ -131,34 +143,51 @@ ul li a {
     color: #fff;
 }
 
-.bg__dark + .bg__dark {
+.bg__dark+.bg__dark {
     margin-top: 1rem;
 }
 
 /* footer  */
 
-footer {
-    padding: 1.5rem;
+.footer {
+    padding: 2rem 0;
 }
 
-@media only screen and ( min-width: 700px) {
+@media only screen and (min-width: 700px) {
 
     /* second_section  */
 
-    .second_section_div {
+    .second_div {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: center;
     }
 
-    .three_col_smaller_screen {
+    .second_section_smaller_screen {
         display: flex;
         flex-direction: row;
     }
 
-    .three__col__text + .three__col__text {
+    .section_div+.section_div {
         margin: 0 0 0 1.5rem;
     }
+
+    /* third section  */
+
+    .third__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside__smaller__screen {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* footer  */
+
+
+
 
 
 }
