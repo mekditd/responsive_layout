@@ -77,6 +77,12 @@ ul li a {
     color: #fff;
 }
 
+.sign_up {
+    background-color: #A59678;
+    padding: .25rem .75rem;
+    border-radius: 1rem;
+}
+
 /* hero section */
 
 .hero {
@@ -90,6 +96,7 @@ ul li a {
     color: #fff;
     background-color: #A59678;
     padding: .5rem 1.5rem;
+    border-radius: 1rem;
 }
 
 .hero__button:hover {
