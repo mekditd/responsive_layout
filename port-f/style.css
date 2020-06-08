@@ -1,0 +1,174 @@
+/* *, ::before, ::after {
+
+
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height:1.2em;
+}
+
+.wrapper {
+    background-color: lightsteelblue;
+
+}
+
+.container {
+    padding: 1.5em;
+}
+
+.row {
+    display: flex;
+}
+
+.fixed {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 2em;
+
+}
+
+.three-li {
+    max-width: 100%;
+}
+
+.logo {
+    flex: 1;
+}
+
+img {
+    border-radius: 600px;
+    width: 65%;
+    max-width:120px;
+}
+
+.links {
+    flex: 2;
+    align-self: flex-end;
+}
+
+.three-li {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin-left: 20px;
+}
+
+@media screen and (width: 700px){
+    .row {
+        display: flex;
+    }
+
+    .three-li {
+        display: flex;
+    justify-content: space-between;
+
+    }
+
+    .fixed {
+        width: 30%;
+        max-width: 400px;
+    }
+
+    img {
+        width: 85%;
+        max-width: 250px;
+        border-radius: 100px;
+    }
+    
+    .intro {
+        height: 500px;
+    }
+
+    .about {
+        height: 500px;
+    }
+
+    .contact {
+        height: 500px;
+    }
+} */
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height:1.5em;
+}
+
+.wrapper {
+    background-color: lightsteelblue;
+
+}
+
+.container {
+    padding: 1.5em;
+}
+
+/* .row {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.fixed {
+    background-color: burlywood;
+}
+
+.logo {
+    display: flex;
+}
+
+img {
+    width: 75%;
+    max-width: 300px;
+    border-radius: 50px;
+    align-self: center;
+}
+
+.nav {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav-link {
+    padding: 4rem;
+}
+
+.intro, .about,
+.proj, .contact {
+    height: 400px;
+    padding: 3em;
+    margin-top: 1.2em;
+    background-color: lightpink;
+}
+
+
+@media screen and (min-width: 700px){
+    .row {
+        display: flex;
+        /* flex-direction: row; */
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
