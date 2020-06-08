@@ -157,7 +157,26 @@ footer {
 @media only screen and (min-width: 700px) {
 
     /* second_section  */
-    .footer
+    body {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+
+    .hero__section__title,
+    .hero__section__title span {
+        font-size: 3rem;
+        line-height: 1.1em;
+    }
+
+    .hero__text {
+        height: 100%;
+        margin-left: 2.5rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
 
     .second_div {
         display: flex;
@@ -180,7 +199,7 @@ footer {
         flex-direction: column;
     }
 
-    .aside__smaller__screen {
+    .aside__at__screens {
         display: flex;
         flex-direction: row;
     }
@@ -226,16 +245,80 @@ footer {
         font-size: 1.4rem;
         line-height: 1.8rem;
     }
+
+    .brown {
+        font-size: 2rem;
+    }
     
     .row {
         display: flex;
         align-items: flex-end;
     }
+
+    /* header */
+
+    header a {
+        align-self: center;
+    }
+
+     header a img:hover {
+            background-color: #5F7E5B
+        }
+        
+        header a img:active {
+            background-color: #5F7E5B;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    
     
     /* hero  */
     
-    .hero__section__title {
-        font-size: 90px;
-        line-height: 1.1em;
+    .hero {
+        display: flex;
+        justify-content: space-between;
     }
+    
+    .hero__section__title,
+    .hero__section__title span {
+        font-size: 5rem;
+        line-height: 1.1em;
+        width: 40%;
+    }
+
+    .hero__text {
+        width: 55%;
+    }
+
+    /* third section  */
+
+    .third__section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    /* main */
+
+    main {
+        margin-right: 5rem;
+    }
+
+
+    /* aside  */
+
+    .aside__at__screens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_div {
+        margin: 0;
+    }
+
+    .section_div+.section_div {
+        margin: 1.2rem 0 0 0;
+    }
+
+
 }
