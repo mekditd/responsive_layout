@@ -102,13 +102,19 @@ ul li a {
     padding: 3rem 0;
 }
 
-/* .three_col_smaller_screen {
+.three_col_smaller_screen {
     display: flex;
-    flex-direction: row;
-} */
+    flex-direction: column;
+}
 
-.section__title {
-    justify-self: center;
+.three__col__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.three__col__text + .three__col__text {
+    margin-top: 2rem;
 }
 
 /* main__aside section  */
