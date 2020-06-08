@@ -115,3 +115,9 @@ ul li a {
 .section__title {
     justify-self: center;
 }
+
+/* main__aside section  */
+
+.main__aside {
+    padding: 3rem 0;
+}
