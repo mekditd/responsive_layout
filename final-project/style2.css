@@ -107,11 +107,6 @@ ul li a {
     flex-direction: row;
 } */
 
-.tree__col__text {
-    display: flex;
-    flex-direction: column;
-}
-
 .section__title {
     justify-self: center;
 }
@@ -136,6 +131,13 @@ ul li a {
 
 /* footer  */
 
-footer {
+/* footer {
 
+} */
+
+@media only screen and ( min-width: 700px) {
+    .three__col__text {
+        display: flex;
+        margin: 0;
+    }
 }
