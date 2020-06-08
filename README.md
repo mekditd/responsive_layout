@@ -1,4 +1,4 @@
 # Conquering Responsive Layouts!
 ### A 21 days challenge of building a responsive website with Kevin Powell
 
-<img src="./assets/Final_Project.PNG" height="400" alt="Screenshot"/>
+<img src="../responsive_layout/final-project/assets/Final_Project.png" height="400" alt="Screenshot"/>
