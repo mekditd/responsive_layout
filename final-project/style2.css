@@ -77,7 +77,7 @@ ul li a {
     color: #fff;
 }
 
-/* heros section */
+/* hero section */
 
 .hero {
     background-color: #3B4050;
@@ -106,7 +106,7 @@ ul li a {
     color: #A59678;
 }
 
-/* three-col section  */
+/* second_section  */
 
 .three-col {
     background-color: #DFE0DB;
@@ -129,7 +129,7 @@ ul li a {
     margin-top: 2rem;
 }
 
-/* third__section section  */
+/* third__section */
 
 .third__section {
     padding: 3rem 0;
@@ -159,7 +159,6 @@ ul li a {
 
     .second_div {
         display: flex;
-        /* flex-direction: column; */
         text-align: center;
     }
 
@@ -184,10 +183,35 @@ ul li a {
         flex-direction: row;
     }
 
-    /* footer  */
+    /* footer */
 
+    .footer_flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .footer__groups {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .last__text {
+    }
+
+    .footer__links {
+        display: flex;
+    }
+
+    .footer__links {
+        flex-shrink: 0;
+        flex-grow: 1;
+    }
+
+    .last__links + .last__links {
+        margin-left: 1rem;
+    }
 
 
 }
