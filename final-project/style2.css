@@ -8,6 +8,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    background-color: #eaeced;
 }
 
 body {
@@ -252,6 +253,10 @@ footer {
     body {
         font-size: 1.4rem;
         line-height: 1.8rem;
+    }
+
+    .container {
+        max-width: 1220px;
     }
 
     .brown {
